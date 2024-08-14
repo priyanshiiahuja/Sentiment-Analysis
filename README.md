@@ -12,18 +12,21 @@ Make sure you have Python installed on your system. It's recommended to use a vi
    cd sentiment-analysis
 
 2. Create a virtual environment and activate it:
+   ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 
-3. Install the required dependencies:
+4. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
 
 ### Running the project
 
 1. Start the web server:
+   ```bash
    python server.py
 
-2. Open your web browser and go to http://localhost:5000 to use the sentiment analysis tool.
+3. Open your web browser and go to http://localhost:5000 to use the sentiment analysis tool.
 
 ### Usage
 1. Enter text into the web application to see the sentiment classification.
